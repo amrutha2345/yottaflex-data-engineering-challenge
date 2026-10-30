@@ -1,0 +1,6 @@
+source_file,source_row,order_id,reason,raw_record
+edge_cases.csv,3,O0000001,duplicate_order_id,"{'order_id': 'O0000001', 'customer_id': 'C00001', 'order_date': '2025-01-01', 'amount': '10.00', 'status': 'paid', 'updated_at': '2025-01-02T10:00:00Z'}"
+edge_cases.csv,4,O0000002,missing_required_field,"{'order_id': 'O0000002', 'customer_id': '', 'order_date': '2025-01-02', 'amount': '12.00', 'status': 'pending', 'updated_at': '2025-01-02T10:00:00Z'}"
+edge_cases.csv,5,O0000003,invalid_customer_reference,"{'order_id': 'O0000003', 'customer_id': 'C99999', 'order_date': '2025-01-03', 'amount': '5.00', 'status': 'paid', 'updated_at': '2025-01-02T10:00:00Z'}"
+edge_cases.csv,6,O0000004,negative_amount,"{'order_id': 'O0000004', 'customer_id': 'C00001', 'order_date': '2025-01-04', 'amount': '-1.00', 'status': 'paid', 'updated_at': '2025-01-02T10:00:00Z'}"
+edge_cases.csv,7,O0000005,invalid_date_amount_or_timestamp,"{'order_id': 'O0000005', 'customer_id': 'C00001', 'order_date': 'not-a-date', 'amount': '8.00', 'status': 'paid', 'updated_at': '2025-01-02T10:00:00Z'}"

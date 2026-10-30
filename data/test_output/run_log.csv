@@ -1,0 +1,4 @@
+run_id,strategy,started_at,ended_at,status,input_count,valid_count,output_count,rejected_count,elapsed_seconds,failure_reason
+25148f1b-02fd-44b0-af8d-164cdb1451a6,full_refresh,2026-10-28T05:50:12.664150+00:00,2026-10-28T05:50:12.684382+00:00,success,100,100,100,0,0.01842,
+25148f1b-02fd-44b0-af8d-164cdb1451a6,incremental_merge,2026-10-28T05:50:12.684382+00:00,2026-10-28T05:50:12.711827+00:00,success,100,100,100,0,0.021994,
+25148f1b-02fd-44b0-af8d-164cdb1451a6,partition_replacement,2026-10-28T05:50:12.712842+00:00,2026-10-28T05:50:12.735051+00:00,success,100,100,100,0,0.018322,
